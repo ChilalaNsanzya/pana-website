@@ -141,19 +141,19 @@ export const drinksMenu = {
         { name: "Aperol Spritz", price: "R139", description: "Prosecco, Aperol, Club Soda" },
         { name: "Appletini", price: "R129", description: "Vodka, Apple Liqueur, Lemon Juice, Syrup" },
         { name: "Bellini", price: "R129", description: "White Peach Purée, Prosecco" },
+        { name: "Espresso Martini", price: "R149", description: "Vodka, Coffee Liqueur, Espresso, Syrup" },
+        { name: "French 75", price: "R149", description: "Gin, Fresh Lemon Juice, Syrup, Prosecco" },
         { name: "Long Island Ice Tea", price: "R149", description: "Vodka, Tequila Blanco, Gin, Syrup, Orange Liqueur, Lemon Juice, Cola" },
         { name: "Margarita", price: "R139", description: "Tequila Reposado, Orange Liqueur, Lime Juice, Syrup" },
         { name: "Martini", price: "R139", description: "Gin or Vodka, Dry Vermouth, Olives" },
         { name: "Mimosa", price: "R119", description: "Prosecco, Orange Juice" },
         { name: "Negroni", price: "R139", description: "Gin, Campari, Sweet Vermouth" },
+        { name: "Old Fashioned", price: "R139", description: "Whiskey, Syrup, Bitters" },
         { name: "Paloma", price: "R139", description: "Tequila Reposado, Lime Juice, Pink Grapefruit" },
         { name: "Pornstar Martini", price: "R149", description: "Vanilla Vodka, Passionfruit, Vanilla Syrup, Prosecco" },
         { name: "Strawberry Daiquiri", price: "R149", description: "Rum, Lime Juice, Strawberries" },
         { name: "Vodka Martini", price: "R139", description: "Vodka, Dry Vermouth, Olives" },
-        { name: "Whiskey Sour", price: "R139", description: "Whiskey, Lemon Juice, Syrup, Egg White, Bitters" },
-        { name: "French 75", price: "R149", description: "Gin, Fresh Lemon Juice, Syrup, Prosecco" },
-        { name: "Espresso Martini", price: "R149", description: "Vodka, Coffee Liqueur, Espresso, Syrup" },
-        { name: "Old Fashioned", price: "R139", description: "Whiskey, Syrup, Bitters" }
+        { name: "Whiskey Sour", price: "R139", description: "Whiskey, Lemon Juice, Syrup, Egg White, Bitters" }
       ]
     },
     signature: {
@@ -178,10 +178,10 @@ export const drinksMenu = {
       title: "MOCKTAILS",
       items: [
         { name: "Amigos", price: "R109", description: "Grenadine, Fresh Lime Juice, Ginger Ale" },
-        { name: "Mojito", price: "R109", description: "Fresh Mint Leaves, Lime Juice, Sugar Syrup, Club Soda" },
-        { name: "Panita", price: "R109", description: "Blueberry, Honey Citrus, Lemonade" },
         { name: "Margarino", price: "R109", description: "Lime juice, Orange Juice, Lemon Juice, Sugar Syrup, Club Soda" },
-        { name: "Palomita", price: "R109", description: "Grapefruit Juice, Fresh Lime Juice, Syrup, Grapefruit Soda" }
+        { name: "Mojito", price: "R109", description: "Fresh Mint Leaves, Lime Juice, Sugar Syrup, Club Soda" },
+        { name: "Palomita", price: "R109", description: "Grapefruit Juice, Fresh Lime Juice, Syrup, Grapefruit Soda" },
+        { name: "Panita", price: "R109", description: "Blueberry, Honey Citrus, Lemonade" }
       ]
     }
   },

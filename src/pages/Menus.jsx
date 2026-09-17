@@ -105,38 +105,38 @@ const Menus = () => {
           </p>
         </motion.div>
 
-        <div className="flex justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-12">
           <button
             onClick={() => setActiveMenu('food')}
-            className={`flex items-center gap-2 px-8 py-4 rounded-lg font-semibold transition-all ${
+            className={`flex items-center justify-center gap-2 whitespace-nowrap px-5 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all ${
               activeMenu === 'food'
                 ? 'bg-pana-gold text-pana-dark'
                 : 'bg-black text-white border-2 border-pana-gold/30 hover:border-pana-gold'
             }`}
           >
-            <UtensilsCrossed size={24} />
+            <UtensilsCrossed size={22} className="shrink-0" />
             Food Menu
           </button>
           <button
             onClick={() => setActiveMenu('drinks')}
-            className={`flex items-center gap-2 px-8 py-4 rounded-lg font-semibold transition-all ${
+            className={`flex items-center justify-center gap-2 whitespace-nowrap px-5 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all ${
               activeMenu === 'drinks'
                 ? 'bg-pana-gold text-pana-dark'
                 : 'bg-black text-white border-2 border-pana-gold/30 hover:border-pana-gold'
             }`}
           >
-            <Wine size={24} />
+            <Wine size={22} className="shrink-0" />
             Drinks Menu
           </button>
           <button
             onClick={() => setActiveMenu('cigars')}
-            className={`flex items-center gap-2 px-8 py-4 rounded-lg font-semibold transition-all ${
+            className={`flex items-center justify-center gap-2 whitespace-nowrap px-5 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all ${
               activeMenu === 'cigars'
                 ? 'bg-pana-gold text-pana-dark'
                 : 'bg-black text-white border-2 border-pana-gold/30 hover:border-pana-gold'
             }`}
           >
-            <Cigarette size={24} />
+            <Cigarette size={22} className="shrink-0" />
             Cigars & Shisha
           </button>
         </div>
