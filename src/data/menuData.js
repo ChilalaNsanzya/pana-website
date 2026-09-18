@@ -262,10 +262,10 @@ export const drinksMenu = {
       title: "COGNAC",
       items: [
         { name: "D'Usse VSOP", bottle: "R2999" },
+        { name: "Hennessy Paradis", bottle: "R39999" },
         { name: "Hennessy VS", single: "R60", bottle: "R1799" },
         { name: "Hennessy VSOP", bottle: "R2799" },
         { name: "Hennessy XO", bottle: "R7999" },
-        { name: "Hennessy Paradis", bottle: "R39999" },
         { name: "Martell Blue Swift", bottle: "R2799" },
         { name: "Martell XO", bottle: "R7999" },
         { name: "Remy Martin 1738", bottle: "R3999" },
@@ -310,17 +310,17 @@ export const drinksMenu = {
       { name: "G.H.Mumm Brut", price: "R1899" },
       { name: "G.H.Mumm Demi-Sec", price: "R2299" },
       { name: "G.H.Mumm Rose", price: "R2499" },
-      { name: "Laurent Perrier La Cuvee Brut", price: "R2199" },
       { name: "Laurent Perrier Demi-Sec", price: "R2199" },
+      { name: "Laurent Perrier La Cuvee Brut", price: "R2199" },
       { name: "Laurent Perrier Rose", price: "R3999" },
       { name: "Louis Roederer Cristal", price: "R14999" },
-      { name: "Moët & Chandon Impérial Brut", price: "R1999" },
       { name: "Moët & Chandon Ice Imperial", price: "R2299" },
+      { name: "Moët & Chandon Impérial Brut", price: "R1999" },
       { name: "Moët & Chandon Nectar Impérial", price: "R2199" },
       { name: "Moët & Chandon Nectar Impérial Rosé", price: "R2399" },
-      { name: "Veuve Clicquot Yellow Label", price: "R2199" },
       { name: "Veuve Clicquot Rich", price: "R2799" },
-      { name: "Veuve Clicquot Rosé", price: "R2299" }
+      { name: "Veuve Clicquot Rosé", price: "R2299" },
+      { name: "Veuve Clicquot Yellow Label", price: "R2199" }
     ]
   },
   mcc: {
@@ -360,8 +360,8 @@ export const drinksMenu = {
           { name: "Haute Cabriere Unwooded", bottle: "R350" },
           { name: "Klein Goederust 2022", bottle: "R1099" },
           { name: "Mont Rochelle Miko", bottle: "R1399" },
-          { name: "Spier", glass: "R90", bottle: "R360" },
           { name: "Rupert & Rothschild Baroness Nadine", bottle: "R1199" },
+          { name: "Spier", glass: "R90", bottle: "R360" },
           { name: "Tokara Reserve Collection", bottle: "R999" }
         ]
       },
@@ -421,8 +421,8 @@ export const drinksMenu = {
         subtitle: "PINOT NOIR",
         items: [
           { name: "Creation Ridge", bottle: "R1199" },
-          { name: "Lismore", bottle: "R1299" },
-          { name: "Hamilton Russell", bottle: "R2099" }
+          { name: "Hamilton Russell", bottle: "R2099" },
+          { name: "Lismore", bottle: "R1299" }
         ]
       },
       cabernetSauvignon: {
@@ -439,9 +439,9 @@ export const drinksMenu = {
         subtitle: "PINOTAGE",
         items: [
           { name: "Beyerskloof", glass: "R99", bottle: "R399" },
-          { name: "Warwick First Lady", glass: "R99", bottle: "R399" },
           { name: "Fat Bastard", bottle: "R500" },
-          { name: "Rijks Touch", bottle: "R599" }
+          { name: "Rijks Touch", bottle: "R599" },
+          { name: "Warwick First Lady", glass: "R99", bottle: "R399" }
         ]
       },
       merlot: {
@@ -467,11 +467,11 @@ export const drinksMenu = {
         subtitle: "RED BLENDS",
         items: [
           { name: "Anthonij Rupert Optima", bottle: "R799" },
-          { name: "The Chocolate Block", bottle: "R799" },
+          { name: "Holden Manz Cabernet Franc Reserve", bottle: "R2299" },
           { name: "Meerlust Rubicon", bottle: "R1699" },
           { name: "Rupert & Rothschild Classique", bottle: "R699" },
+          { name: "The Chocolate Block", bottle: "R799" },
           { name: "Tokara Directors Reserve Red", bottle: "R1699" },
-          { name: "Holden Manz Cabernet Franc Reserve", bottle: "R2299" },
           { name: "Vilafonté Seriously Old Dirt", bottle: "R799" }
         ]
       }
@@ -484,8 +484,8 @@ export const drinksMenu = {
       { name: "Corona 355ml", price: "R60" },
       { name: "Corona Cero 355ml", price: "R60" },
       { name: "Flying Fish 330ml", price: "R50" },
-      { name: "Heineken 330ml", price: "R55" },
       { name: "Heineken 0.0 330ml", price: "R55" },
+      { name: "Heineken 330ml", price: "R55" },
       { name: "Stella Artois 330ml", price: "R50" },
       { name: "Windhoek 440ml", price: "R60" }
     ]
@@ -495,8 +495,8 @@ export const drinksMenu = {
     items: [
       { name: "Ice Tropez", price: "R199" },
       { name: "Ice Tropez Zero", price: "R149" },
-      { name: "Savanna Dry 330ml", price: "R59" },
-      { name: "Savanna 0.0 330ml", price: "R59" }
+      { name: "Savanna 0.0 330ml", price: "R59" },
+      { name: "Savanna Dry 330ml", price: "R59" }
     ]
   },
   softDrinks: {
